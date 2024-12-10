@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Тест для учня 10 класу</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Тест для учня 10 класу</h1>
+        <p>Це тест для перевірки знань з основних предметів для учнів 10 класу.</p>
+    </header>
+
+    <section class="test">
+        <h2>Тест з математики</h2>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. Яке значення виразу 2 + 2 × 2?</p>
+                <label><input type="radio" name="question1" value="4"> 4</label><br>
+                <label><input type="radio" name="question1" value="6"> 6</label><br>
+                <label><input type="radio" name="question1" value="8"> 8</label><br>
+                <label><input type="radio" name="question1" value="2"> 2</label><br>
+            </div>
+
+            <div class="question">
+                <p>2. Який корінь з 81?</p>
+                <label><input type="radio" name="question2" value="7"> 7</label><br>
+                <label><input type="radio" name="question2" value="9"> 9</label><br>
+                <label><input type="radio" name="question2" value="8"> 8</label><br>
+                <label><input type="radio" name="question2" value="10"> 10</label><br>
+            </div>
+
+            <button type="button" onclick="checkAnswers()">Перевірити відповіді</button>
+        </form>
+        <div id="result"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Тест для учня 10 класу. Усі права захищені.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
